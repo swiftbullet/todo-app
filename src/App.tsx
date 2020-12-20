@@ -1,4 +1,6 @@
 import React from 'react';
+import { StoreProvider } from './models/TodoModel'
+
 import styled from 'styled-components';
 import Todo from './containers/Todo';
 
@@ -11,10 +13,11 @@ const Container = styled.div`
 
 function App() {
 	return (
-		<Container>
-			<Todo />
-		</Container>
+		<StoreProvider>
+			<Container>
+				<Todo />
+			</Container>
+		</StoreProvider>
 	);
 }
-
 export default App;

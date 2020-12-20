@@ -4,6 +4,7 @@ import React, {
 	FormEvent,
 	MouseEvent
 } from 'react';
+import { observer } from 'mobx-react-lite'
 import styled from 'styled-components';
 import TodoItem from '../components/TodoItem';
 import { IoIosAdd } from 'react-icons/io';
