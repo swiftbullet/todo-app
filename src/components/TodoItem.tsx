@@ -5,7 +5,6 @@ import React, {
 	MouseEvent,
 	FormEvent
 } from 'react';
-import { observer } from 'mobx-react-lite'
 import { IoMdCreate, IoIosTrash } from 'react-icons/io';
 import { FaRegCheckCircle, FaRegCircle, } from 'react-icons/fa';
 import { MdDone } from "react-icons/md"
